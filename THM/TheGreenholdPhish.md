@@ -35,26 +35,30 @@ Who is the owner of the Originating IP? (Do not include the "." in your answer.)
 Ans: Hostwinds LLC
 
 What is the SPF record for the Return-Path domain?
-<br> 
 
-Ans:
+Ans: v=spf1 include:spf.protection.outlook.com -all
 
 What is the DMARC record for the Return-Path domain?
+<br> ![image](https://github.com/user-attachments/assets/66d13c63-4d6d-4776-aeb7-b31298217f7e)
 
-Ans:
+Ans: v=DMARC1; p=quarantine; fo=1 
 
 What is the name of the attachment?
+<br> ![image](https://github.com/user-attachments/assets/3ae71a4a-7c2e-4121-98b0-6f6de0730507)
 
-Ans:
+Ans: SWT_#09674321____PDF__.CAB
 
 What is the SHA256 hash of the file attachment?
+<br>![image](https://github.com/user-attachments/assets/0a7368d7-8434-4b1b-9321-ed3fd91fd4ea)
 
-Ans:
+Ans:2e91c533615a9bb8929ac4bb76707b2444597ce063d84a4b33525e25074fff3f
 
 What is the attachments file size? (Don't forget to add "KB" to your answer, NUM KB)
+<br> i tried lookup from the properties of the file but I search it to virustotal to see the file size
+<br> ![image](https://github.com/user-attachments/assets/64efd166-4fbe-40b9-bbb0-c679cba61c1c)
 
-Ans:
+Ans: 400.26 KB
 
 What is the actual file extension of the attachment?
-
-Ans:
+<br> ![image](https://github.com/user-attachments/assets/64efd166-4fbe-40b9-bbb0-c679cba61c1c)
+Ans: RAR
